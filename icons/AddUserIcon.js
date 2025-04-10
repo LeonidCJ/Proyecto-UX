@@ -1,4 +1,4 @@
-export function AddUserIcon({ classname }) {
+export function AddUserIcon({ classname = "" } = {}) {
   return `
     <svg  
       xmlns="http://www.w3.org/2000/svg"  
