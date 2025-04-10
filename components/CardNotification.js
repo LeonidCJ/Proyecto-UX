@@ -1,4 +1,5 @@
 import { AlertIcon } from "../icons/index.js";
+import { NewPrimaryButton } from "./NewPrimaryButton.js";
 
 export function CardNotification() {
   return `
@@ -10,7 +11,7 @@ export function CardNotification() {
         <h4 class="leading-none text-lg font-bold">Titulo de la Notificacion</h4>
         <p class="text-pretty text-sm ">Lorem viverra urna. elit. tortor. ex ipsum sollicitudin. nec elit. tincidunt lorem. ex placerat. Ut id ... </small>
         <div class="flex justify-end">
-          <button class="bg-white text-black font-semibold rounded-md px-3 py-2">Aceptar</button>
+          ${NewPrimaryButton()}
         </div>
       </main>
     </article>

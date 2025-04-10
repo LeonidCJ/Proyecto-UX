@@ -1,6 +1,6 @@
 import { LinkItem } from "./index.js";
 import { links } from "../constants/link.js";
-import { DashboardIcon } from "../icons/index.js";
+import { LogoutIcon } from "../icons/index.js";
 
 export function Navbar() {
   return `
@@ -21,7 +21,7 @@ export function Navbar() {
         link: {
           link: "#",
           name: "Cerrar Sesión",
-          icon: DashboardIcon(),
+          icon: LogoutIcon(),
         },
       })}
     </aside>
