@@ -1,4 +1,10 @@
-import { DashboardIcon } from "../icons/index.js";
+import {
+  CalendarIcon,
+  DashboardIcon,
+  ReceiptIcon,
+  UsersGroupIcon,
+  ClipboardIcon,
+} from "../icons/index.js";
 
 export const links = [
   {
@@ -9,21 +15,21 @@ export const links = [
   {
     link: "#/pacientes",
     name: "Pacientes",
-    icon: DashboardIcon(),
+    icon: UsersGroupIcon(),
   },
   {
     link: "#/historia-clinica",
     name: "Historia Clinica",
-    icon: DashboardIcon(),
+    icon: ClipboardIcon(),
   },
   {
     link: "#/citas-medicas",
     name: "Citas Médicas",
-    icon: DashboardIcon(),
+    icon: CalendarIcon(),
   },
   {
     link: "#/recetas",
     name: "Recetas",
-    icon: DashboardIcon(),
+    icon: ReceiptIcon(),
   },
 ];
