@@ -1,5 +1,5 @@
-import { AlertIcon } from "../icons/index.js";
-import { NewPrimaryButton } from "./NewPrimaryButton.js";
+import { AlertIcon } from "../../icons/index.js";
+import { NewPrimaryButton } from "../UI/index.js";
 
 export function CardNotification() {
   return `

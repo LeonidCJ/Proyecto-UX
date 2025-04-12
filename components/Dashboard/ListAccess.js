@@ -1,4 +1,4 @@
-import { AddUserIcon, ClipboardIcon, ReceiptIcon } from "../icons/index.js";
+import { AddUserIcon, ClipboardIcon, ReceiptIcon } from "../../icons/index.js";
 import { CardAccess } from "./index.js";
 
 const access = [
