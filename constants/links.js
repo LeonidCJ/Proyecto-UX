@@ -8,27 +8,27 @@ import {
 
 export const links = [
   {
-    link: "#/dashboard",
+    link: "#dashboard",
     name: "Dashboard",
     icon: DashboardIcon(),
   },
   {
-    link: "#/pacientes",
+    link: "#pacientes",
     name: "Pacientes",
     icon: UsersGroupIcon(),
   },
   {
-    link: "#/historia-clinica",
+    link: "#historia-clinica",
     name: "Historia Clinica",
     icon: ClipboardIcon(),
   },
   {
-    link: "#/citas-medicas",
+    link: "#citas-medicas",
     name: "Citas Médicas",
     icon: CalendarIcon(),
   },
   {
-    link: "#/recetas",
+    link: "#recetas",
     name: "Recetas",
     icon: ReceiptIcon(),
   },
