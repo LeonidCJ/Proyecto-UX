@@ -1,3 +1,10 @@
+@import url("./styles/Dashboard/index.css");
+
+: root {
+  --primary-color: #4baab3;
+  --secundary-color: #327177;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,6 +12,6 @@
 
 #root {
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   gap: 52px;
 }
