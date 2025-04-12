@@ -1,0 +1,22 @@
+.card-access {
+  display: flex;
+  flex-direction: column;
+  min-width: 12rem; /* 48 */
+  max-width: 12rem; /* 48 */
+  width: 12rem; /* 48 */
+  gap: 1rem;
+  border: 2px dashed black;
+  border-radius: 1.25rem; /* 2xl */
+  align-items: center;
+  padding: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.card-access:hover {
+  cursor: pointer;
+  background-color: #e2e8f0; /* zinc-200 */
+}
+
+.card-access p {
+  font-weight: 600; /* font-semibold */
+}
