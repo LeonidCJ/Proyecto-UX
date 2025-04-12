@@ -1,9 +1,8 @@
 import {
-  CardCita,
   ListAccess,
-  ListCitas,
   ListNotification,
-} from "../components/index.js";
+  ListCitas,
+} from "../components/Dashboard/index.js";
 
 export function Dashboard() {
   return `
@@ -24,7 +23,7 @@ export function Dashboard() {
             ${ListNotification()}
           </aside>
         </div>
-        <div class="flex flex-col gap-4 mb-10">
+        <div class="flex flex-col gap-4">
           <h3 class="text-2xl font-bold">Accesos rápidos</h3>
             ${ListAccess()}
         </div>
