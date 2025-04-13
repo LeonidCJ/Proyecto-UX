@@ -1,0 +1,32 @@
+.card-notification {
+  display: flex;
+  gap: 0.5rem;
+  background-color: var(--primary-color);
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  width: 20rem;
+  color: white;
+}
+
+.card-notification-main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  line-height: 1;
+}
+
+.card-notification-main h4 {
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.card-notification-main p {
+  font-size: 0.875rem;
+}
+
+.card-notification-main .button-container {
+  display: flex;
+  justify-content: flex-end;
+}

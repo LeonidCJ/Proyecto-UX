@@ -2,7 +2,7 @@ import { CardNotification } from "./index.js";
 
 export function ListNotification() {
   return `
-      <section class="flex flex-col gap-2">
+      <section class="list-notification">
         ${CardNotification()}
         ${CardNotification()}
         ${CardNotification()}

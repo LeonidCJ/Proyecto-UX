@@ -18,7 +18,7 @@ const access = [
 
 export function ListAccess() {
   return `
-      <div class="flex gap-8">
+      <div class="list-access">
         ${access.map((item) =>
           CardAccess({
             name: item.name,

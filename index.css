@@ -1,8 +1,8 @@
 @import url("./styles/Dashboard/index.css");
+@import url("./styles/UI/index.css");
 
-: root {
-  --primary-color: #4baab3;
-  --secundary-color: #327177;
+:root {
+  --primary-color: #327177;
 }
 
 * {

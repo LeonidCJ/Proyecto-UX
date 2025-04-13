@@ -1,22 +1,25 @@
 .card-access {
   display: flex;
   flex-direction: column;
-  min-width: 12rem; /* 48 */
-  max-width: 12rem; /* 48 */
-  width: 12rem; /* 48 */
+  min-width: 12rem;
+  max-width: 12rem;
+  width: 12rem;
   gap: 1rem;
-  border: 2px dashed black;
-  border-radius: 1.25rem; /* 2xl */
+  border: 2px dashed;
+  border-color: var(--primary-color);
+  border-radius: 1.25rem;
   align-items: center;
   padding: 1rem;
   transition: background-color 0.3s ease;
+  color: var(--primary-color);
 }
 
 .card-access:hover {
   cursor: pointer;
-  background-color: #e2e8f0; /* zinc-200 */
+  background-color: var(--primary-color);
+  color: white;
 }
 
 .card-access p {
-  font-weight: 600; /* font-semibold */
+  font-weight: 600;
 }
